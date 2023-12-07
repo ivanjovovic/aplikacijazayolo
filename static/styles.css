@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+body {
+    background-image:url('AI4S3.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    border: 2px solid #f8f8f8;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    display: inline-block;
+}
+
+input[type=file],input[type=submit] {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type=submit] {
+    background-color: #5cd85c;
+    color: white;
+}
+
+img {
+    max-width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
